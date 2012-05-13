@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cc_inflate", "cc_inflate.vcxproj", "{0BD8D506-300B-2807-C9D8-0B4C55C40E81}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cc_ungzip", "cc_ungzip.vcxproj", "{111F2517-E498-77E8-4D17-CD185114F61E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0BD8D506-300B-2807-C9D8-0B4C55C40E81} = {0BD8D506-300B-2807-C9D8-0B4C55C40E81}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BD8D506-300B-2807-C9D8-0B4C55C40E81}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0BD8D506-300B-2807-C9D8-0B4C55C40E81}.Debug|Win32.Build.0 = Debug|Win32
+		{0BD8D506-300B-2807-C9D8-0B4C55C40E81}.Release|Win32.ActiveCfg = Release|Win32
+		{0BD8D506-300B-2807-C9D8-0B4C55C40E81}.Release|Win32.Build.0 = Release|Win32
+		{111F2517-E498-77E8-4D17-CD185114F61E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{111F2517-E498-77E8-4D17-CD185114F61E}.Debug|Win32.Build.0 = Debug|Win32
+		{111F2517-E498-77E8-4D17-CD185114F61E}.Release|Win32.ActiveCfg = Release|Win32
+		{111F2517-E498-77E8-4D17-CD185114F61E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+# .gitignore
+Debug/
+Release/
+gyp/
+*.sdf
+*.suo
+*.ncb
+*.user
+*.gz
